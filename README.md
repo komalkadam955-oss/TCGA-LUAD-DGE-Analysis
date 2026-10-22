@@ -45,8 +45,43 @@ DESeq2 was used for retrieving RNA sequencing data for the TCGA-LUAD cohort and 
 Differential Gene Expression Analysis was asssessed using DESeq2 for identification of genes whose expression differed significantly between tumour and normal samples. Genes were classified as differentially expressed when they met the specfic criteria:-
 
 -Adjusted p-value < 0.05
+
 Absolute log2 fold change > 1
 
 Results were visualized using a volcano plot , which shows the difference between statistical significance and effect size and a heatmap that shows how the expression of the top genes varies across samples.
 
-3.
+3. Gene Ontology Enrichment Analysis
+
+With the use of clusterProfiler tool, the GO biological process enrichment was conducted in order to determine biological processes that are significantly represented among the differentially expressed genes in LUAD.
+
+
+4. Survival Analysis
+
+
+The Kaplan-Meier analysis was implemented to evaluate the correlation between SACK1A (FAM83A) expression and overall survival in TCGA-LUAD patients.
+
+Gene- SACK1A(FAM83A), EnsembleID-ENSG00000147689.16
+
+Expression source- DESeq2 normalized counts 
+
+Groups-  Patients were split into low expression and high expression
+
+Statistical Test- Log rank test used to compare survival curves
+
+
+5. Protein -Protein Interaction Network Analysis
+
+The selected upregulated genes were examined in STRING  to explore the known and anticipated protein connections. The obtained netwok was further visualized and manually arranged in Cytoscape.
+
+Input- Selected upregulated genes
+
+Database- STRING ( known and predicted genes)
+
+Confidence Threshold- Minimum combined interaction score of 0.700
+
+Visualization- Cytoscape with manual layout
+
+Network genes-DLGAP5, BUB1B, TOP2A, CCNB1, KIF2C, CDC20
+
+Note- FAM83A (SACK1A)  was present in the STRING results but did not form any high confidence connections with other genes in the nerwork
+( combined score < 0.700 )
