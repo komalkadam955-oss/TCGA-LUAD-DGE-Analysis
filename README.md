@@ -141,3 +141,21 @@ Tools such as STRING and Cytoscape were used to assess protein associations amon
  Biological process inn association- cell cycle regulation, mitotic progression , chromosome segregation
 
  These genes have potential for further investigation, however network connectivity does not determine biological importance,functional activity or causality.
+
+ LIMITATIONS
+ 
+ - The obtained results are influenced by the TCGA samples, comparison groups, preprocessing options, and statistical criteria utilized
+
+ - GO enrichment identifies the significantly represented processes but does not confirm their biological activity.
+
+
+ - The Kaplan Meier and log rank analyses were not modified for clinical variables, and the independent prognostic value was not     evaluated with Cox regression.
+
+- STRING relationships may be based on experimental data, collected knowledge, co-expression or algorithmic predictions.
+
+- The network structure is determined by the identifiers submitted, the mapping, accessible interaction data and and the confidence level
+
+-Before any gene specific results are obtained, differences in gene annotations should be corrected.
+
+-The experiments and independent datasets have a requirement of validating potential genes and interpretations.
+ 
