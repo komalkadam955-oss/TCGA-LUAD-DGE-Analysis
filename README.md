@@ -96,3 +96,38 @@ and log2 fold change > 1)
 Upregulated genes- 11, 868
 
 Downregulated genes- 3,288
+
+2. Functional Enrichment Analysis
+
+The GO biological Enrichment analysis of differentially expressed genes accentuated the top five terms appearing on the dot plot.
+
+-Organelle fission
+
+-Nuclear divison
+
+-Skeletal system development
+
+-Meiotic cell cycle
+
+-Chromosome segregation
+
+These findings demonstrate the enrichment of genes associated with cell division, hromosomal organization, and skeletal system development. However, enrichment does not imply that these processes are active,rather, it shows an overrepresentation of genes in these processes.
+
+
+3. SURVIVAL ANALYSIS
+
+ The given table shows the Kaplan Meier analysis of overall survival in TCGA-LUAD patients, divided into high expression and low expression groups.
+
+  | Measure | Result |
+|---|---|
+| Total patients | 504 |
+| Low-expression group | 252 |
+| High-expression group | 252 |
+| Observed deaths, low-expression group | 76 (30.2%) |
+| Observed deaths, high-expression group | 106 (42.1%) |
+| Log-rank chi-square | 11.65 |
+| Log-rank p-value | 0.000642 |
+
+A statistically significant difference between the survival curves was revealed by the log-rank test, indicating a correlation between expression group and overall survival. Neither causality nor independent prognostic value are established by this.
+
+NOTE-The survival script designates Ensembl ID ENSG00000147689.16 as SACK1A, whereas STRING displays FAM83A. These seem to be the same gene (SACK1A is another name), however the identification should be checked to the dataset's reference annotation before making genespecific biological claims.
