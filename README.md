@@ -111,7 +111,7 @@ The GO biological Enrichment analysis of differentially expressed genes accentua
 
 -Chromosome segregation
 
-These findings demonstrate the enrichment of genes associated with cell division, hromosomal organization, and skeletal system development. However, enrichment does not imply that these processes are active,rather, it shows an overrepresentation of genes in these processes.
+These findings demonstrate the enrichment of genes associated with cell division, chromosomal organization, and skeletal system development. However, enrichment does not imply that these processes are active,rather, it shows an overrepresentation of genes in these processes.
 
 
 3. SURVIVAL ANALYSIS
@@ -131,3 +131,13 @@ These findings demonstrate the enrichment of genes associated with cell division
 A statistically significant difference between the survival curves was revealed by the log-rank test, indicating a correlation between expression group and overall survival. Neither causality nor independent prognostic value are established by this.
 
 NOTE-The survival script designates Ensembl ID ENSG00000147689.16 as SACK1A, whereas STRING displays FAM83A. These seem to be the same gene (SACK1A is another name), however the identification should be checked to the dataset's reference annotation before making genespecific biological claims.
+
+4. Protein-Protein Interaction Network Analysis
+Tools such as STRING and Cytoscape were used to assess protein associations among the selected upregulated genes
+(minimum confidence score 0.700)
+
+ Genes in the network- DLGAP5, BUB1B, TOP2A, CCNB1, KIF2C, CDC20
+
+ Biological process inn association- cell cycle regulation, mitotic progression , chromosome segregation
+
+ These genes have potential for further investigation, however network connectivity does not determine biological importance,functional activity or causality.
