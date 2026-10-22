@@ -85,3 +85,15 @@ Network genes-DLGAP5, BUB1B, TOP2A, CCNB1, KIF2C, CDC20
 
 Note- FAM83A (SACK1A)  was present in the STRING results but did not form any high confidence connections with other genes in the nerwork
 ( combined score < 0.700 )
+
+
+KEY FINDINGS:
+
+1. Differential Gene Expression
+
+The analysis results in identification of 15, 156 differentially expressed genes that followed the specific criterion (Adjusted p-value < 0.05
+and log2 fold change > 1)
+
+Upregulated genes- 11, 868
+
+Downregulated genes- 3,288
