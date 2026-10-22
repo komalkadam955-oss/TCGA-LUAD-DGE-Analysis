@@ -83,8 +83,7 @@ Visualization- Cytoscape with manual layout
 
 Network genes-DLGAP5, BUB1B, TOP2A, CCNB1, KIF2C, CDC20
 
-Note- FAM83A (SACK1A)  was present in the STRING results but did not form any high confidence connections with other genes in the nerwork
-( combined score < 0.700 )
+Note- FAM83A (SACK1A)  was present in the STRING results but appears to be connected to SPP1  at a minimum combined score of 0.700 in the network visualized. This interaction was visible in the Cytoscape network, however its corresponding score should be confirmed in the exported interaction table.
 
 
 KEY FINDINGS:
