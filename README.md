@@ -89,7 +89,7 @@ The selected upregulated genes were examined in STRING  to explore the known and
 
 - Network genes-DLGAP5, BUB1B, TOP2A, CCNB1, KIF2C, CDC20
 
-Note- FAM83A (SACK1A)  was recognized by STRING results and it formed no interactions at minimum combined score of 0.700 in the network visualized. This interaction was visible in the Cytoscape network, however connections appeared at medium confidence threshold (>0.400), although they rest on weaker evidence and are treated here as exploratory
+Note- FAM83A (SACK1A)  was recognized by STRING results and it formed no interactions at minimum combined score of 0.700 in the network visualized. However connections appeared at medium confidence threshold (>0.400), although they rest on weaker evidence and are treated here as exploratory.This interaction was visible in the Cytoscape network.
 
 ## KEY FINDINGS:
 
