@@ -89,8 +89,7 @@ The selected upregulated genes were examined in STRING  to explore the known and
 
 - Network genes-DLGAP5, BUB1B, TOP2A, CCNB1, KIF2C, CDC20
 
-Note- FAM83A (SACK1A)  was present in the STRING results but appears to be connected to SPP1  at a minimum combined score of 0.700 in the network visualized. This interaction was visible in the Cytoscape network, however its corresponding score should be confirmed in the exported interaction table.
-
+Note- FAM83A (SACK1A)  was recognized by STRING results and it formed no interactions at minimum combined score of 0.700 in the network visualized. This interaction was visible in the Cytoscape network, however connections appeared at medium confidence threshold (>0.400), although they rest on weaker evidence and are treated here as exploratory
 
 ## KEY FINDINGS:
 
@@ -168,5 +167,5 @@ Tools such as STRING and Cytoscape were used to assess protein associations amon
 ## Repository Contents
 - TCGA-LUAD Gene Expression Analysis Script - R scripts for each analysis step
 - TCGA -LUAD Analysis Figures– volcano plot, heatmap, GO dot plot,  SACK1A survival curve, and  STRING / Cytoscape network images
-- TCGA-LUAD Results – differentially expressed gene tables , survival results (SACK1A survival log rank and survival summary), Top upregulated gene table and STRING edge list
+- TCGA-LUAD Results – differentially expressed gene tables ,GO BP enrichment table, survival results (SACK1A survival log rank and survival summary), Top upregulated gene table and STRING( top 100 gene id, upregulated gene id, string edge list)
  
