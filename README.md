@@ -166,7 +166,7 @@ Tools such as STRING and Cytoscape were used to assess protein associations amon
 - The experiments and independent datasets have a requirement of validating potential genes and interpretations.
 
 ## Repository Contents
-scripts/ – analysis1 .R (R scripts for each analysis step)
-figures/ – volcano plot, heatmap, GO dot plot, survival curve, and network image
-results/ – differentially expressed gene tables , survival results and STRING edge list
+- TCGA-LUAD Gene Expression Analysis Script - R scripts for each analysis step
+- TCGA -LUAD Analysis Figures– volcano plot, heatmap, GO dot plot,  SACK1A survival curve, and  STRING / Cytoscape network images
+- TCGA-LUAD Results – differentially expressed gene tables , survival results (SACK1A survival log rank and survival summary), Top upregulated gene table and STRING edge list
  
