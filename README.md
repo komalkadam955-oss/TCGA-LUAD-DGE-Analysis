@@ -2,6 +2,8 @@
 This project looks at what goes different in Lung Adenocarcinoma at the genomic level (LUAD) using the RNA- sequencing data from The Cancer Genome Atlas (TCGA). Several approaches were integrated to understand what is occuring at the molecular level: differential gene expression analysis to identify genes demonstrating different behavior in tumours, Gene ontology (GO) enrichment to understand the gene function,Kaplan-Meier Analysis to observe how they relate to patient outcomes and protein -protein interaction (PPI) networks to observe the associations between the proteins.
 The analysis was performed in R using Bioconductor pages , with STRING and Cytoscape used for protein interaction analysis and network visualization.
 
+## RESEARCH QUESTION
+
 OBJECTIVES :
 
 -Identify the genes which are differentially expressed in TCGA-LUAD
@@ -14,7 +16,7 @@ OBJECTIVES :
 
 -Identify potential genes and pathways for further inquiry.
 
-TOOLS USED:
+## TOOLS USED:
 
 R and RStudio - statistical computing and analysis
 
@@ -34,7 +36,7 @@ STRING - protein–protein interaction analysis
 
 Cytoscape - network visualization and layout editing
 
-ANALYSIS WORKFLOW:
+## ANALYSIS WORKFLOW:
 
 1. Data acquisition and preparation
 
@@ -86,7 +88,7 @@ Network genes-DLGAP5, BUB1B, TOP2A, CCNB1, KIF2C, CDC20
 Note- FAM83A (SACK1A)  was present in the STRING results but appears to be connected to SPP1  at a minimum combined score of 0.700 in the network visualized. This interaction was visible in the Cytoscape network, however its corresponding score should be confirmed in the exported interaction table.
 
 
-KEY FINDINGS:
+## KEY FINDINGS:
 
 1. Differential Gene Expression
 
