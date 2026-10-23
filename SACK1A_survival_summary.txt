@@ -1,9 +1,0 @@
-TCGA-LUAD: SACK1A overall survival analysis
-Method: Kaplan-Meier curves and log-rank test
-Patients: 504
-Low expression group: 252 patients, 76 observed deaths
-High expression group: 252 patients, 106 observed deaths
-Log-rank chi-square: 11.65
-Log-rank p-value: 0.000642
-Interpretation: Survival curves differ statistically.
-Further validation is needed to assess independent prognostic value.
