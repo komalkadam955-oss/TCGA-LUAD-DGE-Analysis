@@ -87,7 +87,7 @@ The selected upregulated genes were examined in STRING  to explore the known and
 
 - Visualization- Cytoscape with manual layout
 
-- Network genes-DLGAP5, BUB1B, TOP2A, CCNB1, KIF2C, CDC20
+
 
 Note- FAM83A (SACK1A)  was recognized by STRING results and it formed no interactions at minimum combined score of 0.700 in the network visualized. However connections appeared at medium confidence threshold (>0.400), although they rest on weaker evidence and are treated here as exploratory.This interaction was visible in the Cytoscape network.
 
@@ -146,6 +146,8 @@ Tools such as STRING and Cytoscape were used to assess protein associations amon
  Biological process inn association- cell cycle regulation, mitotic progression , chromosome segregation
 
  These genes have potential for further investigation, however network connectivity does not determine biological importance,functional activity or causality.
+ Note- FAM83A (SACK1A)  was recognized by STRING results and it formed no interactions at minimum combined score of 0.700 in the network visualized. However connections appeared at medium confidence threshold (>0.400), although they rest on weaker evidence and are treated here as exploratory.This interaction was visible in the Cytoscape network.
+
 
  ## LIMITATIONS
  
