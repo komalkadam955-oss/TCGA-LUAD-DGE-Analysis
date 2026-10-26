@@ -44,7 +44,7 @@ The analysis was performed in R using Bioconductor packages , with STRING and Cy
 
 ### 1. Data acquisition and preparation
 
-DESeq2 was used for retrieving RNA sequencing data for the TCGA-LUAD cohort and prepared it for analysis, which includes organizing the count data and aligning the tumor and normal sample for comparison.
+TCGA-LUAD RNA-sequencing data were retrieved with TCGAbiolinks and organized into a count matrix with tumor and normal samples labeled for comparison.
 
 ### 2.Differential Gene Expression Analysis
 
