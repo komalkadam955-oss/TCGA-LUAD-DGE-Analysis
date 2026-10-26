@@ -104,7 +104,7 @@ Downregulated genes- 3,288
 
 ### 2. Functional Enrichment Analysis
 
-The GO biological Enrichment analysis of differentially expressed genes accentuated the top five terms appearing on the dot plot.
+The GO biological Enrichment analysis of upregulated genes accentuated the top five terms appearing on the dot plot.
 
 - Organelle fission
 
