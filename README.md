@@ -137,7 +137,7 @@ These findings demonstrate the enrichment of genes associated with cell division
 The high expression group showed lower survival probability for most of the follow up period. As it is an association only, clinical variable such as tumor stage, age and treatment were not adjusted for, so independent prognostic value is not established.
 
 
-NOTE-The survival script designates Ensembl ID ENSG00000147689.16 as SACK1A, whereas STRING displays FAM83A. These seem to be the same gene (SACK1A is another name), however the identification should be checked to the dataset's reference annotation before making genespecific biological claims.
+NOTE- The survival analysis script identifies Ensembl ID ENSG00000147689.16 as SACK1A, whereas STRING displays the gene as FAM83A. These names refer to the same gene, with SACK1A being an alternative name for FAM83A. The gene identity should be interpreted consistently across the analysis using the dataset's reference annotation.
 
 ### 4. Protein-Protein Interaction Network Analysis
 Tools such as STRING and Cytoscape were used to assess protein associations among the selected upregulated genes
@@ -177,5 +177,5 @@ Tools such as STRING and Cytoscape were used to assess protein associations amon
 - TCGA-LUAD Gene Expression Analysis Script - R scripts for each analysis step
 - TCGA -LUAD Analysis Figures– volcano plot, heatmap, GO dot plot,  SACK1A survival curve, and  STRING / Cytoscape network images
 - TCGA-LUAD Results – differentially expressed gene tables ,GO BP enrichment table, survival results (SACK1A survival log rank and survival summary), Top upregulated gene table and STRING( top 100 gene id, upregulated gene id, string edge list)
-- PDF Report
+- PDF Report- Detailed report describing the study background, methodology, result , discussion and limitations.
  
