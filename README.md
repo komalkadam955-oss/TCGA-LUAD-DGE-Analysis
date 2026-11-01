@@ -57,7 +57,7 @@ With the use of clusterProfiler tool, the GO biological process enrichment was c
 ### 4. Survival Analysis
 
 
-The Kaplan-Meier analysis was implemented to evaluate the correlation between SACK1A (FAM83A) expression and overall survival in TCGA-LUAD patients.
+The Kaplan-Meier analysis was implemented to evaluate the association between SACK1A (FAM83A) expression and overall survival in TCGA-LUAD patients.
 
 - Gene- SACK1A(FAM83A), EnsembleID-ENSG00000147689.16
 
@@ -65,7 +65,7 @@ The Kaplan-Meier analysis was implemented to evaluate the correlation between SA
 
 - Groups-  Patients were split into low expression and high expression (median split)
 
-- Statistical Test- Log rank test used to compare survival curves
+- Statistical Test- log rank test used to compare survival curves
 
 
 ### 5. Protein -Protein Interaction Network Analysis
