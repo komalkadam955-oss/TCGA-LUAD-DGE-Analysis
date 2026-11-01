@@ -7,18 +7,11 @@ The analysis was performed in R using Bioconductor packages , with STRING and Cy
 - 2. Which biological processes are found to be enriched among the differentially expressed genes?
 - 3. Does the analyzed patient cohort's overall survival correlate with gene expression?
 - 4. Which patterns of interaction can be observed between the indicated upregulated genes?
+     
+## DATA
 
-## OBJECTIVES :
+RNA-sequencing gene expression data from the TCGA-LUAD project, downloaded with TCGAbiolinks from the Genomic Data Commons: 539 primary tumor and 59 solid tissue normal samples, analyzed as raw counts. The survival analysis used clinical data and included 504 patients with matched tumor expression and valid survival information.
 
-- Identify the genes which are differentially expressed in TCGA-LUAD
-
-- Examine biological processes involved in different gene expression
-
-- Investigate the relationship between gene expression and overall survival
-
-- Analyze the protein interaction patterns of chosen elevated genes
-
-- Identify potential genes and pathways for further inquiry.
 
 ## TOOLS USED:
 
@@ -99,12 +92,16 @@ and log2 fold change > 1)
 Upregulated genes- 11, 868 (78.3%)
 
 Downregulated genes- 3,288 (21.7%)
-Gene	Ensembl ID	Direction	log2 fold change	Adjusted p-value
-FAM83A (SACK1A)	ENSG00000147689.16	Up	6.79	4.3 × 10⁻¹⁷⁶
-PYCR1	ENSG00000183010.17	Up	3.69	3.0 × 10⁻¹⁶⁵
-OTUD1	ENSG00000165312.6	Down	-2.12	9.4 × 10⁻¹⁴⁶
-AFAP1-AS1	ENSG00000272620.2	Up	6.31	1.2 × 10⁻¹²⁸
-EPAS1	ENSG00000116016.14	Down	-2.72	4.2 × 10⁻¹²⁸
+
+The top 5 most significant genes are -
+
+| Gene | Ensembl ID | Direction | log2 fold change | Adjusted p-value |
+|---|---|---|---|---|
+| FAM83A (SACK1A) | ENSG00000147689.16 | Up | 6.79 | 4.3 × 10⁻¹⁷⁶ |
+| PYCR1 | ENSG00000183010.17 | Up | 3.69 | 3.0 × 10⁻¹⁶⁵ |
+| OTUD1 | ENSG00000165312.6 | Down | -2.12 | 9.4 × 10⁻¹⁴⁶ |
+| AFAP1-AS1 | ENSG00000272620.2 | Up | 6.31 | 6.3 × 10⁻¹²⁸ |
+| EPAS1 | ENSG00000116016.14 | Down | -2.72 | 4.2 × 10⁻¹²⁸ |
 
 ### 2. Functional Enrichment Analysis
 
