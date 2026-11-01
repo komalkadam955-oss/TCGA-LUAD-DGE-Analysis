@@ -101,7 +101,7 @@ The top 5 most significant genes are -
 | PYCR1 | ENSG00000183010.17 | Up | 3.69 | 3.0 × 10⁻¹⁶⁵ |
 | OTUD1 | ENSG00000165312.6 | Down | -2.12 | 9.4 × 10⁻¹⁴⁶ |
 | AFAP1-AS1 | ENSG00000272620.2 | Up | 6.31 | 6.3 × 10⁻¹²⁸ |
-| EPAS1 | ENSG00000116016.14 | Down | -2.72 | 4.2 × 10⁻¹²⁸ |
+| EPAS1 | ENSG00000116016.14 | Down | -2.72 | 1.2 × 10⁻¹²⁸ |
 
 ### 2. Functional Enrichment Analysis
 
