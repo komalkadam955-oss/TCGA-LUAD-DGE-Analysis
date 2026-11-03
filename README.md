@@ -178,4 +178,7 @@ Biological process in association- cell cycle regulation, mitotic progression , 
 - TCGA -LUAD Analysis Figures– volcano plot, heatmap, GO dot plot,  SACK1A survival curve, and  STRING / Cytoscape network images
 - TCGA-LUAD Results – differentially expressed gene tables ,GO BP enrichment table, survival results (SACK1A survival log rank and survival summary), Top upregulated gene table and STRING( top 100 gene id, upregulated gene id, string edge list)
 - PDF Report- Detailed report describing the study background, methodology, result , discussion and limitations.
+- ## PDF Report
+
+[View or Download TCGA-LUAD Analysis Report](PDF_Report.pdf)
  
